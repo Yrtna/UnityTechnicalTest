@@ -25,6 +25,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MyMech
       objectReference: {fileID: 0}
+    - target: {fileID: 3958797724535912085, guid: 85ba640e1f023472c8997b5b009cee59, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4448335024045304879, guid: 85ba640e1f023472c8997b5b009cee59, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 108080247811274414}
   - component: {fileID: 54175853139288072}
   - component: {fileID: 135786877233098124}
+  - component: {fileID: 3734098021670788907}
   m_Layer: 0
-  m_Name: Projectile 11
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4848,7 +4849,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f1b23a4dd34122b4084cf47d208e55f9, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4984,3 +4984,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.05
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3734098021670788907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795072395756124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e24af849904fc79c28aca11d566c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  harmfulTo: 1
+  damage: 25

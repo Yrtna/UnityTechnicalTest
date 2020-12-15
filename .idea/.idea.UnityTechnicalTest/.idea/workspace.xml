@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2907d815-eeca-4721-8e6c-b176fe2244ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/MyMech.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/MyMech.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_Dev.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -43,6 +53,23 @@
         <option value="$PROJECT_DIR$/Assets/ShootController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IKillable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DroneDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnitType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Death.cs" />
+        <option value="$PROJECT_DIR$/Assets/DamageOnHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/External Assets/Toon projectiles/Scripts/ProjectileMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DamageOnHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/MenuManager.cs" />
       </list>
     </option>
   </component>
@@ -52,6 +79,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,10 +97,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17464">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17464" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -86,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608018650180</updated>
-      <workItem from="1608018656143" duration="8552000" />
+      <workItem from="1608018656143" duration="23762000" />
     </task>
     <servers />
   </component>
@@ -108,5 +137,102 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="469" height="646" key="DebuggerActiveHint" timestamp="1608041070280">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="469" height="646" key="DebuggerActiveHint/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041070280" />
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom" timestamp="1608041860004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041860004" />
+    <state width="2517" height="511" key="GridCell.Tab.0.center" timestamp="1608041860004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041860004" />
+    <state width="2517" height="511" key="GridCell.Tab.0.left" timestamp="1608041860004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041860004" />
+    <state width="2517" height="511" key="GridCell.Tab.0.right" timestamp="1608041860004">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041860004" />
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom" timestamp="1608041859757">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859757" />
+    <state width="2517" height="511" key="GridCell.Tab.1.center" timestamp="1608041859757">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859757" />
+    <state width="2517" height="511" key="GridCell.Tab.1.left" timestamp="1608041859757">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859757" />
+    <state width="2517" height="511" key="GridCell.Tab.1.right" timestamp="1608041859757">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859757" />
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom" timestamp="1608041859758">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859758" />
+    <state width="2517" height="511" key="GridCell.Tab.2.center" timestamp="1608041859758">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859758" />
+    <state width="2517" height="511" key="GridCell.Tab.2.left" timestamp="1608041859758">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859758" />
+    <state width="2517" height="511" key="GridCell.Tab.2.right" timestamp="1608041859758">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.2.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859758" />
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom" timestamp="1608041859759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859759" />
+    <state width="2517" height="511" key="GridCell.Tab.3.center" timestamp="1608041859759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859759" />
+    <state width="2517" height="511" key="GridCell.Tab.3.left" timestamp="1608041859759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859759" />
+    <state width="2517" height="511" key="GridCell.Tab.3.right" timestamp="1608041859759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="511" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859759" />
+    <state x="1114" y="314" key="RiderGenerateDialog" timestamp="1608036478647">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="314" key="RiderGenerateDialog/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608036478647" />
+    <state x="947" y="417" width="666" height="566" key="find.popup" timestamp="1608031831452">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="947" y="417" width="666" height="566" key="find.popup/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608031831452" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DamageOnHit.cs</url>
+          <line>15</line>
+          <properties documentPath="E:\10-Work\Chouic\UnityTechnicalTest\Assets\DamageOnHit.cs" initialLine="15">
+            <startOffsets>
+              <option value="394" />
+            </startOffsets>
+            <endOffsets>
+              <option value="448" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

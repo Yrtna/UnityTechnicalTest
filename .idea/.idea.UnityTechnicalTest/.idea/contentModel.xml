@@ -87,11 +87,24 @@
             </e>
           </e>
         </e>
+        <e p="MenuManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraFollowTarget.cs" t="Include" />
+          <e p="DamageOnHit.cs" t="Include" />
+          <e p="Death.cs" t="Include" />
+          <e p="EnemyAttack.cs" t="Include" />
+          <e p="EnemyDeath.cs" t="Include" />
+          <e p="EnemyMovement.cs" t="Include" />
+          <e p="EnemySpawn.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="IDamageable.cs" t="Include" />
+          <e p="IKillable.cs" t="Include" />
+          <e p="PlayerAttack.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerShoot.cs" t="Include" />
           <e p="ShootController.cs" t="Include" />
+          <e p="SpawnController.cs" t="Include" />
+          <e p="UnitType.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

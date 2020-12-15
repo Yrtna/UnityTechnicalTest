@@ -5,15 +5,20 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
+    [SerializeField]
+    private float fireRate = 0f;
+
     private ShootController shootController;
     private bool isShooting;
+    private float timeSinceLastShot;
 
     void Start()
     {
         isShooting = false;
         shootController = GetComponentInChildren<ShootController>();
+        timeSinceLastShot = 0f;
     }
-    
+
     void Update()
     {
         // Press
@@ -24,12 +29,20 @@ public class PlayerShoot : MonoBehaviour
                 shootController.StartShooting();
             }
         }
+
         // Hold
         if (Input.GetButton("Fire1"))
         {
             isShooting = true;
-            shootController.Shoot();
+            if (timeSinceLastShot >= fireRate)
+            {
+                shootController.Shoot();
+                timeSinceLastShot = 0f;
+            }
+            else
+                timeSinceLastShot += Time.deltaTime;
         }
+
         // Release
         if (Input.GetButtonUp("Fire1"))
         {
