@@ -1,3 +1,13 @@
-﻿fileFormatVersion: 2
+fileFormatVersion: 2
 guid: 5e5b6ba7c04c4151b5571915d3d7f8e7
-timeCreated: 1608037528
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathEffect: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
+  - scoreManager: {fileID: 8599571093187960329, guid: 7678a5a96a6a258408b84635be26de93, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,7 @@ public class Death : MonoBehaviour, IKillable
 {
     public virtual void Die()
     {
-        Debug.Log("UnitDeath");
+        // TODO create UnityEvent for player death
+        GameObject.FindWithTag("UIManager").GetComponent<MenuManager>().GameOver();
     }
 }

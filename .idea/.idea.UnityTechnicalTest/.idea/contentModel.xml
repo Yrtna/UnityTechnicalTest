@@ -88,6 +88,7 @@
           </e>
         </e>
         <e p="MenuManager.cs" t="Include" />
+        <e p="ScoreManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraFollowTarget.cs" t="Include" />
           <e p="DamageOnHit.cs" t="Include" />

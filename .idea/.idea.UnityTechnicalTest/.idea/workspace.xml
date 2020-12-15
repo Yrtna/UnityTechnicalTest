@@ -22,10 +22,14 @@
     <list default="true" id="2907d815-eeca-4721-8e6c-b176fe2244ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityTechnicalTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/MyMech.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/MyMech.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/MyDrone1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/MyDrone1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/MyDrone2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/MyDrone2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_Dev.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Death.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,21 +59,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IKillable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IDamageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DroneDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UnitType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/DamageOnHit.cs" />
         <option value="$PROJECT_DIR$/Assets/External Assets/Toon projectiles/Scripts/ProjectileMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageOnHit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608018650180</updated>
-      <workItem from="1608018656143" duration="23762000" />
+      <workItem from="1608018656143" duration="27126000" />
     </task>
     <servers />
   </component>
@@ -207,14 +212,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="511" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608041859759" />
-    <state x="1114" y="314" key="RiderGenerateDialog" timestamp="1608036478647">
+    <state x="1114" y="314" key="RiderGenerateDialog" timestamp="1608045831401">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1114" y="314" key="RiderGenerateDialog/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608036478647" />
-    <state x="947" y="417" width="666" height="566" key="find.popup" timestamp="1608031831452">
+    <state x="1114" y="314" key="RiderGenerateDialog/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608045831401" />
+    <state x="947" y="417" width="666" height="566" key="find.popup" timestamp="1608046631757">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="947" y="417" width="666" height="566" key="find.popup/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608031831452" />
+    <state x="947" y="417" width="666" height="566" key="find.popup/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1608046631757" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

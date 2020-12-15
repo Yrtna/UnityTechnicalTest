@@ -33,6 +33,9 @@ public class EnemySpawn : MonoBehaviour
         if (timeSinceLastSpawn >= spawnRate)
         {
             SpawnEnemy();
+            spawnRate -= 0.02f;
+            if (spawnRate <= 0f)
+                spawnRate = 0.05f;
         }
     }
 
