@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 4d4fee045e29f7249a92179dce705323
+timeCreated: 1505770248
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Finestre
+    100004: polySurface1364
+    100006: pPlane154
+    100008: pPlane155
+    100010: pPlane156
+    100012: pPlane157
+    100014: pPlane158
+    100016: pPlane159
+    100018: pPlane160
+    100020: pPlane161
+    100022: pPlane162
+    100024: pPlane163
+    100026: pPlane164
+    100028: pPlane165
+    100030: pPlane166
+    100032: pPlane167
+    100034: pPlane168
+    100036: pPlane169
+    100038: pPlane170
+    100040: pPlane171
+    100042: pPlane172
+    100044: pPlane173
+    100046: pPlane175
+    100048: pPlane176
+    100050: pPlane177
+    100052: pPlane178
+    100054: pPlane179
+    100056: pPlane180
+    100058: pPlane181
+    100060: pPlane182
+    100062: pPlane183
+    100064: pPlane184
+    100066: pPlane185
+    100068: Windows
+    400000: //RootNode
+    400002: Finestre
+    400004: polySurface1364
+    400006: pPlane154
+    400008: pPlane155
+    400010: pPlane156
+    400012: pPlane157
+    400014: pPlane158
+    400016: pPlane159
+    400018: pPlane160
+    400020: pPlane161
+    400022: pPlane162
+    400024: pPlane163
+    400026: pPlane164
+    400028: pPlane165
+    400030: pPlane166
+    400032: pPlane167
+    400034: pPlane168
+    400036: pPlane169
+    400038: pPlane170
+    400040: pPlane171
+    400042: pPlane172
+    400044: pPlane173
+    400046: pPlane175
+    400048: pPlane176
+    400050: pPlane177
+    400052: pPlane178
+    400054: pPlane179
+    400056: pPlane180
+    400058: pPlane181
+    400060: pPlane182
+    400062: pPlane183
+    400064: pPlane184
+    400066: pPlane185
+    400068: Windows
+    2100000: lambert1
+    2100002: lambert14
+    2100004: lambert50
+    2100006: lambert51
+    2300000: polySurface1364
+    2300002: pPlane154
+    2300004: pPlane155
+    2300006: pPlane156
+    2300008: pPlane157
+    2300010: pPlane158
+    2300012: pPlane159
+    2300014: pPlane160
+    2300016: pPlane161
+    2300018: pPlane162
+    2300020: pPlane163
+    2300022: pPlane164
+    2300024: pPlane165
+    2300026: pPlane166
+    2300028: pPlane167
+    2300030: pPlane168
+    2300032: pPlane169
+    2300034: pPlane170
+    2300036: pPlane171
+    2300038: pPlane172
+    2300040: pPlane173
+    2300042: pPlane175
+    2300044: pPlane176
+    2300046: pPlane177
+    2300048: pPlane178
+    2300050: pPlane179
+    2300052: pPlane180
+    2300054: pPlane181
+    2300056: pPlane182
+    2300058: pPlane183
+    2300060: pPlane184
+    2300062: pPlane185
+    3300000: polySurface1364
+    3300002: pPlane154
+    3300004: pPlane155
+    3300006: pPlane156
+    3300008: pPlane157
+    3300010: pPlane158
+    3300012: pPlane159
+    3300014: pPlane160
+    3300016: pPlane161
+    3300018: pPlane162
+    3300020: pPlane163
+    3300022: pPlane164
+    3300024: pPlane165
+    3300026: pPlane166
+    3300028: pPlane167
+    3300030: pPlane168
+    3300032: pPlane169
+    3300034: pPlane170
+    3300036: pPlane171
+    3300038: pPlane172
+    3300040: pPlane173
+    3300042: pPlane175
+    3300044: pPlane176
+    3300046: pPlane177
+    3300048: pPlane178
+    3300050: pPlane179
+    3300052: pPlane180
+    3300054: pPlane181
+    3300056: pPlane182
+    3300058: pPlane183
+    3300060: pPlane184
+    3300062: pPlane185
+    4300000: polySurface1364
+    4300002: pPlane154
+    4300004: pPlane155
+    4300006: pPlane156
+    4300008: pPlane157
+    4300010: pPlane158
+    4300012: pPlane159
+    4300014: pPlane160
+    4300016: pPlane161
+    4300018: pPlane162
+    4300020: pPlane163
+    4300022: pPlane164
+    4300024: pPlane165
+    4300026: pPlane166
+    4300028: pPlane167
+    4300030: pPlane168
+    4300032: pPlane169
+    4300034: pPlane170
+    4300036: pPlane171
+    4300038: pPlane172
+    4300040: pPlane173
+    4300042: pPlane175
+    4300044: pPlane176
+    4300046: pPlane177
+    4300048: pPlane178
+    4300050: pPlane179
+    4300052: pPlane180
+    4300054: pPlane181
+    4300056: pPlane182
+    4300058: pPlane183
+    4300060: pPlane184
+    4300062: pPlane185
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 97540c74e744b0546b743773d6ab40e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert14
+    second: {fileID: 2100000, guid: e316e77aced48bc43b5d4bd2851f6f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert50
+    second: {fileID: 2100000, guid: 97540c74e744b0546b743773d6ab40e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert51
+    second: {fileID: 2100000, guid: e316e77aced48bc43b5d4bd2851f6f84, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
